@@ -1,0 +1,220 @@
+@font-face {
+  font-family: DancingScript;
+  src: url(../fuente/Dancing_Script/DancingScript-Regular.ttf);
+}
+
+body{
+  background-color: #02010a;
+  width: 80%;
+  margin-left: 10%;
+  font-family: DancingScript;
+  animation-name: animacion;
+  animation-duration: 1s;
+
+}
+header{
+  background-color: #5b7989;
+  width: 100%;
+  border-radius: 10px 10px 0 0 ;
+  overflow: hidden;
+}
+.encabezado{
+
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+header .logo{
+  float: left;
+  line-height: 50px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  text-shadow: 0 2px #02010a;
+}
+
+header nav{
+  float: right;
+  line-height: 100px;
+
+}
+header nav a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1.3em;
+
+}
+@keyframes animacion {
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+
+/*PAGINA PRINCIPAL*/
+#contenido{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imagen1{
+  background-color: #82c3a6;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+
+}
+.imagen2{
+  background-color:  #d5c75f;
+  text-align: center;
+  overflow: hidden;
+}
+img{
+  box-shadow: 2px 2px #02010a;
+}
+.imagen3{
+  background-color:  #d5c75f;
+  text-align: center;
+  overflow: hidden;
+}
+.seg{
+display: flex;
+flex-direction: row;
+background-color: #d5c75f;
+
+padding-bottom: 10px;
+}
+.imagen2 img, .imagen3 img{
+  width: 100%;
+
+}
+
+.imagen2 img:hover{
+  transform: rotate(10deg);
+  text-shadow: 0 2px #82c3a6;
+  border: 2px solid black;
+  box-shadow: 2px 2px #82c3a6;
+  transition: transform 1s;
+}
+.imagen3 img:hover{
+  transform: translateX(20px)
+             translateY(-5px);
+  border: 2px solid black;
+  box-shadow: 2px 2px #82c3a6;
+  transition: transform 1s;
+}
+
+footer{
+  background-color: #C6d5c5;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.contacto{
+  width: 25%;
+  margin-left: 10px;
+}
+.contacto h1{
+  margin-left: 35px;
+}
+.contacto ul li {
+    list-style-type: none;
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+}
+.terminos{
+  width: 25%;
+  margin-left: 35px;
+}
+
+
+.redes{
+  width: 25%;
+}
+.redes h1{
+  margin-left: 35px;
+}
+.redes ul li {
+    list-style-type: none;
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+}
+.derechos{
+  width: 25%;
+  margin-left: 35px;
+}
+/*PAGINA PAISAJES y RETRATOS*/
+.paisajes{
+  width: 100%;
+  background-color:  #d5c75f;
+  overflow: hidden;
+}
+.paisajes div{
+  display: inline-block;
+  flex-direction: row;
+  margin-left: 10px
+
+}
+.c1, .c2, .c3, .c4, .c5, .c6{
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  margin: 10px 0
+}
+.c1 img{
+  filter: blur(10px);
+
+}
+.c2, .c4, .c6{
+  filter: grayscale(100%);
+}
+.c3{
+  filter: sepia(90%);
+}
+@media all and (max-width:900px) {
+  header,
+  header nav{
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+  }
+  img{
+    width: 100%;
+
+  }
+  .seg{
+    flex-flow: row wrap;
+  }
+  .info div{
+    width: 100%;
+  }
+  ul li a img{
+    width: 10%;
+  }
+  .info{
+    flex-flow: row wrap;
+  }
+
+  .c1, .c2, .c3, .c4, .c5, .c6{
+    width: 85%;
+  }
+
+}
