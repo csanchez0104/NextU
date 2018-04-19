@@ -1,0 +1,54 @@
+.logo{
+  border-right: 1px solid white;
+}
+.historial li{
+  list-style: none;
+}
+.publicar a{
+  text-align: right;
+}
+body{
+  background: url(../img/1.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contenedor{
+  background-color: rgba(15, 149, 185, 0.3);
+
+
+}
+.comentarios{
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+.callout{
+  border-radius: 5px;
+}
+.logo{
+  color: white;
+}
+.logo p{
+  text-align: right;
+}
+.caja-menu{
+  background-color: #2EDDD5;
+}
+.caja-contenido{
+  background-color: #EEBFD9;
+}
+.caja-contenido h6{
+  color: #F00F8D;
+}
+textarea{
+  resize: none;
+}
+hr{
+  border: 0.5px darkgrey solid
+}
+.caja-contenido p{
+  text-align: justify;
+  
+}

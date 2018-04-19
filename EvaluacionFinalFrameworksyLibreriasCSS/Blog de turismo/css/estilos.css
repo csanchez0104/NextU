@@ -1,0 +1,73 @@
+.logo{
+  height: 13rem;
+
+}
+div[class*="bar"]{
+
+  height: 5rem;
+}
+div[class*="bloque"]{
+  margin-left: 10px;
+  
+  min-height: 10rem;
+}
+
+body{
+
+background: url(../img/fondo.jpg) ;
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.botones{
+  float: right;
+  margin-top: 15px;
+
+}
+.logo-img{
+  border-radius: 10px;
+  width: 60%;
+  margin-top: 50px;
+}
+.icon-redes{
+  padding-top: 10px;
+}
+.articulo-img{
+  margin: 10px;
+
+}
+.articulo-texto p{
+  font-size: 1.3rem;
+  text-align: justify;
+  margin: 15px;
+
+}
+.autor-texto{
+  text-align: center;
+
+}
+.autor-img{
+  width: 50%;
+  margin-top: 15px;
+}
+
+div[class*="caja"]{
+
+}
+.texto-autor{
+  margin: 10px;
+
+}
+@media  all and (max-width:425px) {
+  .logo-img{
+    margin-top: 20px;
+
+  }
+  .logo{
+    height: 10rem;
+  }
+  .titulo{
+    font-size: 1.5rem ;
+  }
+
+}

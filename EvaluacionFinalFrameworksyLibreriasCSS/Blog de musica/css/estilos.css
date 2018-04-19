@@ -1,0 +1,75 @@
+.encabezado{
+  min-height: 200px;
+
+  border-radius: 5px;
+}
+body{
+  margin-left: 10%;
+  width: 80%;
+  background: #89070F;
+}
+.logo{
+  min-height: 200px;
+
+  text-align: center;
+}
+.redes-sociales{
+
+
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.barra-menu{
+  min-height: 70px;
+
+  background: orange;
+  border-radius: 5px;
+
+}
+
+div[class*="bloque"]{
+  min-height: 400px;
+
+  background: white;
+  padding-bottom: 10px;
+
+}
+.container-fluid div{
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.imagen-logo{
+  width: 150px;
+
+}
+.botones{
+  text-align: center;
+  margin-top: 15px;
+
+
+}
+.botones a{
+  color: #89070F;
+}
+.botones a:hover{
+
+  background: white;
+}
+.encabezado{
+  background: white;
+}
+div p{
+  text-align: justify;
+}
+.imagen-articulo{
+  border: #89070F 1px solid;
+  border-radius: 5px;
+}
+
+@media all and (max-width:300px) {
+  .redes-sociales{
+    margin-top: 0;
+  }
+}
